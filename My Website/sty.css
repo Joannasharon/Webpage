@@ -1,0 +1,65 @@
+.navbar {   
+   overflow:hidden;
+   background-color:#111;
+}
+.navbar a { 
+    text-align:center;
+    text-decoration:none;
+    display:block;
+    float:left;
+    color:white;
+    padding:20px;
+   
+}
+.navbar a:hover{
+    color:white;
+    background-color:#333;
+}
+.active {
+   background-color:rgb(72,72,72);
+}
+h1{
+ font-family:georgia;
+}
+input[type=text] {
+  width:100%;
+  padding: 12px 20px;
+  margin: 10px 0;
+
+}
+input[type=send]{
+   background-color:rgb(0,0,0);
+   color: white;
+   text-align:center;
+   font-size:16px;
+   padding: 16px 32px;
+   margin:2px 4px;
+   cursor:pointer;
+}
+input[type=send]:hover {
+  background-color:rgb(40,40,40);
+   color: white;
+}
+hr{
+  width:15%;
+  text-align:left;
+  margin-left:0;
+ }
+
+.footer{
+   padding:15px;
+   background-color:rgb(72,72,72);
+   bottom:0;
+   left:0;
+   width:100%;
+   text-align:center;
+   color:white;
+}
+.sm a{
+   text-decoration:none;
+   color:white;
+   font-size:large;
+}
+.sm a:hover{
+  color:black;
+}
